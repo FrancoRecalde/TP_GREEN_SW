@@ -1,0 +1,162 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* src/App.css */
+
+/* Estilos para el Navbar personalizado */
+.green-nav-custom {
+    background-color: #e6ffe6; /* Un verde muy claro, casi blanco */
+    border-bottom: 2px solid #28a745; /* Una línea verde sutil en la parte inferior */
+}
+
+/* Estilos personalizados para los enlaces de navegación */
+.nav-link-custom {
+    position: relative;
+    padding-bottom: 8px !important; /* Aumenta el espacio debajo del texto */
+    transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+.nav-link-custom:hover {
+    color: #1e7e34 !important; /* Un verde más oscuro al pasar el mouse */
+}
+
+.nav-link-custom::after {
+    content: '';
+    position: absolute;
+    left: 50%; /* Centra la línea */
+    transform: translateX(-50%); /* Ajusta el centrado */
+    bottom: 0; /* Coloca la línea en la parte inferior */
+    width: 0; /* Inicialmente sin ancho */
+    height: 2px;
+    background-color: #28a745; /* Color de la línea de énfasis */
+    transition: width 0.3s ease-in-out; /* Transición para el ancho */
+}
+
+.nav-link-custom:hover::after {
+    width: 80%; /* Ancho de la línea al pasar el mouse */
+}
+
+/* Puedes añadir una fuente un poco más moderna si quieres, pero esto añadiría un recurso extra */
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap'); */
+/* body { font-family: 'Poppins', sans-serif; } */
+
+/* Asegúrate de que tu `main` tenga padding top para no quedar cubierto por el navbar */
+.main-content {
+    padding-top: 70px; /* Ajusta este valor si tu navbar es más alto/bajo */
+}
+/* Estilos para el Navbar */
+.navbar-green-theme {
+    background: linear-gradient(135deg, #f5fff5 0%, #e6f7e6 100%);
+    box-shadow: 0 4px 12px rgba(0, 100, 0, 0.1);
+    border-bottom: 2px solid #2e7d32;
+    padding: 0.5rem 0;
+}
+
+.brand-logo {
+    font-family: 'Montserrat', sans-serif;
+    color: #1b5e20 !important;
+    transition: all 0.3s ease;
+}
+
+.brand-logo:hover {
+    transform: scale(1.02);
+}
+
+.leaf-icon {
+    color: #4caf50;
+    font-size: 1.8rem;
+}
+
+.brand-name {
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+}
+
+.brand-tagline {
+    font-weight: 300;
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+.custom-toggler {
+    border-color: rgba(46, 125, 50, 0.5);
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(46, 125, 50, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.nav-links .nav-item {
+    color: #1b5e20 !important;
+    font-weight: 500;
+    margin: 0 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links .nav-item:hover {
+    background-color: rgba(76, 175, 80, 0.15);
+    transform: translateY(-2px);
+}
+
+.nav-icon {
+    margin-right: 8px;
+    font-size: 1.1rem;
+}
+
+/* Efecto activo */
+.nav-links .nav-item.active {
+    background-color: #4caf50;
+    color: white !important;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+    .nav-links {
+        padding-top: 1rem;
+    }
+    
+    .nav-links .nav-item {
+        margin: 0.25rem 0;
+        padding: 0.75rem 1rem;
+    }
+}
