@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import Video1 from './pages/Video1';
 import Video2 from './pages/Video2';
 import Video3 from './pages/Video3';
+import Video4 from './pages/Video4';
 
 const App = () => {
     return (
@@ -19,6 +20,7 @@ const App = () => {
                         <Route path="/video1" element={<Video1 />} />
                         <Route path="/video2" element={<Video2 />} />
                         <Route path="/video3" element={<Video3 />} />
+                        <Route path="/video4" element={<Video4 />} />
                     </Routes>
                 </main>
                 <Footer />
