@@ -11,7 +11,7 @@ const Video2 = () => {
                 <Card.Body className="text-center">
                     <h2 className="text-success mb-4">Video 2: Conclusion informe sustentabilidad</h2>
                     <p className="lead mb-4">
-                        En este segundo video,  exploramos las conclusiones del informe sobre sustentabilidad, destacando los puntos clave y las recomendaciones para mejorar la eficiencia energética y reducir el impacto ambiental en el desarrollo de software.
+                        En este video se presentan las conclusiones del informe sobre sustentabilidad, destacando su importancia como eje estratégico frente a los desafíos actuales. Se reflexiona sobre el valor de actuar con responsabilidad ambiental, social y tecnológica, y se plantea cómo convertir el conocimiento adquirido en acciones concretas para generar impacto real y sostenible.
                     </p>
 
                     <div className="embed-responsive embed-responsive-16by9 mb-4" style={{ position: 'relative', width: '100%', paddingBottom: '56.25%' }}>

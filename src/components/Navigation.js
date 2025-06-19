@@ -23,15 +23,15 @@ const Navigation = () => {
                         </Nav.Link>
                         <Nav.Link as={Link} to="/video1" className="nav-item">
                             <FaVideo className="nav-icon" />
-                            <span style={{ paddingLeft: 5 }}> Energía Limpia</span>
+                            <span style={{ paddingLeft: 5 }}> Sustentabilidad</span>
                         </Nav.Link>
                         <Nav.Link as={Link} to="/video2" className="nav-item">
                             <FaVideo className="nav-icon" />
-                            <span style={{ paddingLeft: 5 }}> Optimización</span>
+                            <span style={{ paddingLeft: 5 }}> Conclusion sustentabilidad</span>
                         </Nav.Link>
                         <Nav.Link as={Link} to="/video3" className="nav-item">
                             <FaInfoCircle className="nav-icon" />
-                            <span style={{ paddingLeft: 5 }}> Casos de Éxito</span>
+                            <span style={{ paddingLeft: 5 }}> Green Software</span>
                         </Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
