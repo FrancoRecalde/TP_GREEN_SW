@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/TP_GREEN_SW/static/css/main.2544e43a.css",
-    "main.js": "/TP_GREEN_SW/static/js/main.f48ab5d2.js",
+    "main.js": "/TP_GREEN_SW/static/js/main.932f6fde.js",
     "index.html": "/TP_GREEN_SW/index.html",
     "main.2544e43a.css.map": "/TP_GREEN_SW/static/css/main.2544e43a.css.map",
-    "main.f48ab5d2.js.map": "/TP_GREEN_SW/static/js/main.f48ab5d2.js.map"
+    "main.932f6fde.js.map": "/TP_GREEN_SW/static/js/main.932f6fde.js.map"
   },
   "entrypoints": [
     "static/css/main.2544e43a.css",
-    "static/js/main.f48ab5d2.js"
+    "static/js/main.932f6fde.js"
   ]
 }
