@@ -3,16 +3,15 @@ import { Container, Card } from 'react-bootstrap';
 
 const Video4 = () => {
     // Reemplaza el src del iframe con la URL de tu video de YouTube/Vimeo
-    const videoUrl = "https://www.youtube.com/embed/TU_URL_DEL_VIDEO_1?autoplay=0&fs=1"; // Asegúrate de cambiar esto
+    const videoUrl = "https://www.youtube.com/embed/QkTEROW_84U"; // Asegúrate de cambiar esto
 
     return (
         <Container className="my-5">
             <Card className="p-4 shadow-lg border-0 rounded-3">
                 <Card.Body className="text-center">
-                    <h2 className="text-success mb-4">Video 4: Principios del Software Verde</h2>
+                    <h2 className="text-success mb-4">Video 4: Conclusion informe de green software</h2>
                     <p className="lead mb-4">
-                        En este primer video, exploramos los conceptos fundamentales del software verde y su importancia en la actualidad.
-                        Aprende cómo pequeñas decisiones en el desarrollo pueden generar un gran impacto ambiental positivo.
+                        En este video se presentan las conclusiones del informe sobre green software, donde se abordan los principios fundamentales que guían el desarrollo de software sostenible. Se discuten las mejores prácticas y estrategias para reducir el impacto ambiental del software, promoviendo un enfoque más consciente y responsable en la industria tecnológica.
                     </p>
 
                     <div className="embed-responsive embed-responsive-16by9 mb-4" style={{ position: 'relative', width: '100%', paddingBottom: '56.25%' }}>

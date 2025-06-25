@@ -9,9 +9,9 @@ const Video1 = () => {
         <Container className="my-5">
             <Card className="p-4 shadow-lg border-0 rounded-3">
                 <Card.Body className="text-center">
-                    <h2 className="text-success mb-4">Video 1: Principios del Software Verde</h2>
+                    <h2 className="text-success mb-4">Video 1: Preguntas sustentabilidad</h2>
                     <p className="lead mb-4">
-                        En este primer video, exploramos los aspectos mas importantes del informe sobre sustentabilidad, el por que, el para que y el como.
+                        En este primer video, exploramos los aspectos mas importantes del informe sobre sustentabilidad, el para que, el por que y el como.
                     </p>
 
                     <div className="embed-responsive embed-responsive-16by9 mb-4" style={{ position: 'relative', width: '100%', paddingBottom: '56.25%' }}>

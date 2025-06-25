@@ -33,6 +33,10 @@ const Navigation = () => {
                             <FaInfoCircle className="nav-icon" />
                             <span style={{ paddingLeft: 5 }}> Green Software</span>
                         </Nav.Link>
+                        <Nav.Link as={Link} to="/video4" className="nav-item">
+                            <FaInfoCircle className="nav-icon" />
+                            <span style={{ paddingLeft: 5 }}> Conclusion green software</span>
+                        </Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

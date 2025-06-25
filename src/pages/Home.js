@@ -12,7 +12,7 @@ const Home = () => {
                         Somos un grupo consultor especializado en sustentabilidad aplicada a las tecnologías digitales. En este sitio compartimos el resultado de nuestra investigación y análisis, reflejado en dos informes complementarios.
                     </p>
                     <p className="mb-4">
-                        Por un lado, desarrollamos un informe general sobre **sustentabilidad**, abordando las preguntas clave: ¿Qué es?, ¿Por qué?, ¿Para qué?, ¿Quién?, ¿Cuándo?, ¿Dónde?, ¿Cómo?, ¿Con qué? y ¿Cuánto?. Por otro lado, realizamos un segundo informe enfocado en el concepto específico de **Green Software**, donde aplicamos el mismo enfoque interrogativo, adaptado al mundo del desarrollo de software responsable.
+                        Por un lado, desarrollamos un informe general sobre sustentabilidad, abordando las preguntas clave: ¿Qué es?, ¿Por qué?, ¿Para qué?, ¿Quién?, ¿Cuándo?, ¿Dónde?, ¿Cómo?, ¿Con qué? y ¿Cuánto?. Por otro lado, realizamos un segundo informe enfocado en el concepto específico de Green Software, donde aplicamos el mismo enfoque interrogativo, adaptado al mundo del desarrollo de software responsable.
                     </p>
                     <p className="mb-5">
                         Acompañamos ambos informes con videos explicativos. Cada informe cuenta con una presentación principal y una conclusión, para que puedas entender los conceptos y también reflexionar sobre su impacto.
